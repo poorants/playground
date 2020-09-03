@@ -1,0 +1,57 @@
+div {
+  width: 100px;
+  height: 100px;
+  border: 3px solid royalblue;
+  margin: 3px;
+  /* border-radius: 50%; */
+  display: inline-block;
+}
+
+div.circle {
+  border-radius: 50%;
+}
+div.params-01 {
+  border-radius: 10% 50%;
+}
+div.params-02 {
+  border-radius: 10% 50% 30%;
+}
+div.params-03 {
+  border-radius: 10% 50% 30% 20%;
+}
+
+div.type {
+  border-color: crimson;
+  background-color: khaki;
+  text-align: center;
+  line-height: 100px; /* height의 값과 같으면 높이 중앙으로 오네? */
+}
+
+div.type-1 {
+  border-radius: 10px;
+}
+div.type-2 {
+  border-radius: 30px;
+}
+div.type-3 {
+  border-radius: 50%;
+}
+div.type-4 {
+  border-radius: 20px 0px;
+}
+
+/* width 크기만큼  */
+div.type-5 {
+  border-radius: 100px 0px 0px 0px;
+}
+
+div.type-6 {
+  border-radius: 50% 50% 50% 0px;
+}
+div.type-7 {
+  border-radius: 100px 0px;
+}
+
+div.type-8 {
+  border-radius: 100px 100px 0px 0px;
+}

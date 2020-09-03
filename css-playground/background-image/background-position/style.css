@@ -4,5 +4,6 @@ div {
   height: 600px;
   background-image: url(bgimg.png);
   background-repeat: no-repeat;
+  /* 백그라운드 이미지의 위치를 옮길 수 있다 center, bottom 등 위치 값 뒤에 오는 px, % 값은 padding 개념과 동일하다 */
   background-position: bottom 10% right 10%;
 }

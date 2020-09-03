@@ -7,12 +7,18 @@
     <title>Document</title>
   </head>
   <body>
+    <!-- box-sizing 옵션은 크기 옵션(width, height)에 적용되는 크기가 해당하는 범위를 결정한다.  -->
+    <!-- 기본은 content-box로 content에 해당하는 부분의 크기. padding, border, margin 값은 크기 옵션값에 포함되지 않는다.  -->
+    <!-- border-box는 content, padding, border가 크기 옵션값에 포함되며 margin 값은 포함되지 않는다.  -->
+
+    <!-- border-box 사용 시 정렬할 수 있는 사례 -->
     <div class="border-box">
       <div></div>
       <div></div>
       <div></div>
     </div>
     <p></p>
+    <!-- 하나의 container 내에 여러개의 div를 수평으로 나열할 때 border-box를 사용하지 않으면 발생하는 현상. -->
     <div class="content-box">
       <div></div>
       <div></div>
