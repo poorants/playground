@@ -1,0 +1,29 @@
+/* figure {
+  border: 1px solid rgb(255, 146, 146);
+} */
+
+body {
+  /* max-width: 700px; */
+}
+
+figure img {
+  border-radius: 5px;
+}
+
+figure h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+figure ul {
+  line-height: 1.5em;
+  list-style: circle;
+  padding-left: 20px;
+}
+
+figure ul li span {
+  color: blue;
+  text-decoration: underline;
+}

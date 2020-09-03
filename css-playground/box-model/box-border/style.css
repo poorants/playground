@@ -1,0 +1,47 @@
+/* div {
+  width: 200px;
+  height: 50px;
+  font-size: 2em;
+  font-weight: bold;
+  border: 10px solid royalblue;
+  padding: 20px;
+  display: inline;
+  margin: 20px;
+} */
+
+div {
+  width: 100px;
+  height: 50px;
+  border-width: 5px;
+  margin: 10px;
+  display: inline-block;
+  border-color: lightblue;
+}
+
+div.solid {
+  border-style: solid;
+}
+
+div.dashed {
+  border-style: dashed;
+}
+
+div.dotted {
+  border-style: dotted;
+}
+
+div.double {
+  border-style: double;
+}
+
+div.groove {
+  border-style: groove;
+}
+
+div.inset {
+  border-style: inset;
+}
+
+div.outset {
+  border-style: outset;
+}

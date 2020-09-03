@@ -1,0 +1,22 @@
+:root {
+  --backbround-color: #e7e7e7;
+}
+
+body {
+  font-size: 1em;
+  line-height: 1em;
+}
+
+p {
+  letter-spacing: 1px;
+}
+
+span {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+h1 {
+  font-size: 30px;
+  text-shadow: 5px 5px 4px violet;
+}
