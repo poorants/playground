@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 테이블에 적용되는 CSS 테스트 페이지 -->
+    <!-- table-layout에 따른 셀 간격 조절이나 border-collapse 등을 다룸 -->
+    <div class="container">
+      <!-- 테이블 구조는 table, caption, thead, tbody, tfoot 으로 분할할 수 있음. -->
+      <table class="tab-1">
+        <caption>
+          table-layout: auto;
+        </caption>
+        <thead>
+          <tr>
+            <th>id</th>
+            <th>first name</th>
+            <th>email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Zak</td>
+            <td>zgraser0@wp.com</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Merry</td>
+            <td>mparfrey1@opensource.org</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Fabiano</td>
+            <td>fhollidge2@usatoday.com</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Elbertina</td>
+            <td>eflieger3@ihg.com</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">border-collapse: separate;</td>
+          </tr>
+        </tfoot>
+      </table>
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <!-- 테이블 구조는 table, caption, thead, tbody, tfoot 으로 분할할 수 있음. -->
+      <table class="tab-2">
+        <caption>
+          table-layout: fixed; caption-side: bottom;
+        </caption>
+        <thead>
+          <tr>
+            <th>id</th>
+            <th>first name</th>
+            <th>email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Zak</td>
+            <td>zgraser0@wp.com</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Merry</td>
+            <td>mparfrey1@opensource.org</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Fabiano</td>
+            <td>fhollidge2@usatoday.com</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Elbertina</td>
+            <td>eflieger3@ihg.com</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">border-collapse: collapse;</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </body>
+</html>

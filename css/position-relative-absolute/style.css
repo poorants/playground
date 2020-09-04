@@ -1,0 +1,33 @@
+body {
+  background-color: lightcyan;
+  /* border: 1px solid black; */
+  /* margin: 0x; */
+  padding: 0px;
+  margin: 30px;
+}
+
+div.parent-01 {
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+div.parent-02 {
+  border: 1px solid crimson;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+
+div.child {
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  border: 1px solid black;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}

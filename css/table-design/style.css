@@ -1,0 +1,81 @@
+/* tab-1 공통 */
+table.tab-1 {
+  width: 650px;
+  /* border가 겹치는 부분을 따로 할건지 합칠건지 구분. || 이냐 | 이냐 차이  */
+  border-collapse: separate;
+  table-layout: auto; /* 컬럼의 간격을 자동으로 설정하는 옵션 */
+}
+
+table.tab-1 td {
+  text-align: center;
+}
+
+table.tab-1 thead th {
+  background-color: lightgreen;
+  padding: 5px;
+}
+
+table.tab-1 tbody td {
+  border: 1px solid lightgrey;
+  padding: 5px;
+}
+
+table.tab-1 tbody td:hover {
+  outline: 3px solid darkolivegreen;
+}
+
+table.tab-1 tfoot td {
+  border: 1px solid lightgrey;
+  background-color: darkolivegreen;
+  color: white;
+  padding: 5px;
+}
+
+table.tab-1 caption {
+  padding: 10px;
+  font-size: 2em;
+  font-weight: bold;
+  caption-side: top;
+}
+
+/* 두번째 테이블 */
+table.tab-2 {
+  width: 650px;
+  border-collapse: collapse;
+  table-layout: fixed; /* 컬럼의 간격을 일정하게 고정 */
+}
+
+table.tab-2 td {
+  text-align: center;
+}
+
+table.tab-2 thead th {
+  background-color: lightblue;
+  padding: 5px;
+}
+
+table.tab-2 tbody td {
+  /* 셀 중앙 구분선없이 열 단위로만 선 긋기 */
+  border-bottom: 1px solid lightgrey;
+  padding: 5px;
+}
+
+table.tab-2 tbody td:hover {
+  outline: 3px solid darkslateblue;
+}
+
+table.tab-2 tfoot td {
+  border: 1px solid lightgrey;
+  background-color: darkslateblue;
+  color: white;
+  padding: 5px;
+}
+
+table.tab-2 caption {
+  padding: 10px;
+  font-size: 1em;
+  color: royalblue;
+  font-weight: bold;
+  text-align: right;
+  caption-side: bottom; /* 캡션을 아래로 보냄 */
+}
