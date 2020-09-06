@@ -1,0 +1,30 @@
+:root {
+}
+
+header {
+  border: 1px solid grey;
+  background-color: #202020;
+  height: 50px;
+  /* position: relative; */
+  border: 1px solid cyan;
+}
+
+header div {
+  display: inline-block;
+  height: 100%;
+}
+.menu {
+  /* text-align: center; */
+  /* line-height: 50px; */
+  border: 1px solid crimson;
+}
+
+.home-btn {
+  /* width: 200px;
+  height: 100%;
+  color: red;
+  text-align: left;
+  line-height: 50px;
+  font-size: 25px; */
+  border: 1px solid crimson;
+}
